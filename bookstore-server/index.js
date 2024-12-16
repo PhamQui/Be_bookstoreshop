@@ -30,7 +30,7 @@ io.on("connection", (socket) => {
 
 // middleware
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://fe-bookstoreshop-git-main-quis-projects-845c8459.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
 }));
 
